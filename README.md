@@ -1,6 +1,5 @@
-git clone https://github.com/votreusername/gmk-tech.git
+git clone https://github.com/plams1/gmk-tech.git
 cd gmk-tech
-# Supprimez les doublons
-rm -f README README.md LICENSE
-# Ajoutez vos fichiers
-cp -r ../gmk-tech-website/* .
+# Renommez le dépôt en local
+git remote set-url origin https://github.com/plams1/plams1.github.io.git
+git push -u origin main
